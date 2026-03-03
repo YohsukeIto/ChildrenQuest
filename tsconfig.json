@@ -1,0 +1,1 @@
+{\n  "compilerOptions": {\n    "strict": true,\n    "target": "es2017",\n    "module": "esnext",\n    "jsx": "preserve",\n    "baseUrl": ".",\n    "paths": {\n      "@/*": ["./*"]\n    }\n  },\n  "include": [\n    "next-env.d.ts",\n    "app/**/*",\n    "lib/**/*"\n  ]\n}
