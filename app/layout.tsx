@@ -1,11 +1,7 @@
-import './globals.css';
+import React from 'react';
 
-export default function RootLayout({ children }) {
-    return (
-        <html>
-            <body>
-                {children}
-            </body>
-        </html>
-    );
+function Layout({ children }) {
+    return <div>{children}</div>;
 }
+
+export default Layout;
